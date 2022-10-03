@@ -1,0 +1,349 @@
+body{
+    font-family: "cursive",  "helvetica";
+    min-width:330px;
+    overflow: auto;
+    margin: 10px 0 ;
+    min-width: 940px;
+}
+
+header{
+    padding:0px 50px;
+}
+
+img.link{
+    width: 10px;
+    height: 10px;
+    border: 0.01mm solid rgb(228, 151, 9);
+    padding:4px;
+    margin: 2px;;
+}
+
+header>section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header>section>div:first-child{
+    display: flex;
+    font-size: 11px;
+    color:royalblue;
+    font-weight: 700;
+    
+}
+
+header>section>div:first-child>p:first-child{
+    margin-right: 15px;
+
+}
+
+header>div{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    align-content: center;
+    
+}
+
+header>div>p:first-child>img{
+    width: 15px;
+}
+
+header>div>p>span{
+    font-size: 23px;
+    color:orangered;
+    font-weight: 700;
+
+}
+
+a.nav{
+  text-decoration: none; 
+  color:black;
+  padding:0 10px;
+  font-weight: 700; 
+}
+
+header>div>p>button{
+    width:80px;
+    height: 35px;
+    background-color: orangered;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+main>section#first{
+    display: flex;
+    background-color: rgba(92, 173, 147, 0.801);
+    justify-content: space-around;
+    height: 70%;
+}
+
+section>div.best{
+    width:35%;
+    padding:70px 0 50px 0;
+}
+
+section>div.best>h1{
+    font-size: 45px;
+    color: rgb(2, 27, 136);  
+    margin-bottom: 0;
+    
+}
+
+#fashion{
+    font-size: 12px;
+    color:rgba(21, 21, 243, 0.575); 
+    font-weight: bold;  
+}
+
+main>section>div.best>button{
+    width:100px;
+    height: 35px;
+    background-color: orangered;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+main>section>section.watch{
+    text-align: center;
+    padding:0 20px;
+
+}
+
+main>section>section.watch>p:first-child{
+    color:orangered;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 5px;
+}
+
+main>section>section.watch>p#sec{
+  color: rgb(2, 27, 136);  
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+
+main>section>section.watch>p:last-child{
+    color:rgba(21, 21, 243, 0.575);
+    font-weight: 600;
+    font-size: 12px;
+    margin: 10px;
+}
+
+img.middle{
+    width:35px;
+}
+
+section.lastmain{
+    display:flex;
+    
+}
+
+section.lastmain>div{
+    text-align: center;
+    margin:20px 50px
+}
+
+section.lastmain>div>h3{
+  color: rgb(2, 27, 136);  
+  
+}
+
+section.lastmain>div>p{
+    color:rgba(21, 21, 243, 0.575); 
+    font-weight: 600; 
+    font-size: 13px;
+}
+
+main>section:last-child{
+    padding: 50px 0;
+}
+
+footer{
+    background-color: rgba(171, 159, 141, 0.178);
+    padding:50px 70px;
+}
+
+footer section.first{
+    text-align: center;
+    padding:0 150px;
+
+}
+
+footer section.first>p:first-child{
+    color:orangered;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 5px;
+}
+
+footer section.first>h2{
+    color: rgb(2, 27, 136);  
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer section.first>p:last-child{
+    color:rgba(21, 21, 243, 0.575);
+    font-weight: 600;
+    font-size: 12px;
+    margin: 10px; 
+}
+
+img.end{
+    width:30px;
+    padding: 15px 12px 0 0;
+}
+
+footer>section.last{
+    display:flex;
+}
+
+footer>section.last>div>div{
+    display: flex;
+    align-items:flex-start ;
+}
+
+#special{
+    padding: 50px 20px;
+    width: 170px;
+  
+}
+
+footer>section.last>div>div span{
+    color: rgb(2, 27, 136); 
+    padding-bottom:10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+footer>section.last>div>div p{
+    color:rgba(21, 21, 243, 0.575);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+
+@media only screen and (max-width:355px){
+    body{
+        box-sizing: border-box;
+        min-width: 320px;
+
+    }
+
+
+    header>section{
+        display:block;   
+    }
+    
+    header>section:first-child>div>p{
+        display: inline;
+    }
+
+    header>section:first-child>div:last-child{
+        text-align: center;
+    }
+
+    header>section:first-child>div>a{
+        display: inline-block;
+        margin:0 15px 0 15px ;
+       
+    }
+
+    header{
+        padding:0px 10px;
+    }
+
+    header>div{
+        display:block;  
+        justify-content:flex-start;
+        margin: 0px 0px;
+        align-content: center;
+        
+        
+    }
+
+    header>div>p:first-child>span{
+        display: inline-block;
+        width: 200px;
+        font-size: 70px;
+    }
+
+    header>div>p:first-child>img{
+        width: 38px;
+    }
+
+    #ebe{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    a.nav{
+        margin: 10px 0;
+    }
+
+    #child{
+
+        position:fixed;
+        top:60px;
+        left: 200px;
+    }
+
+    main>section#first{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        
+    }
+
+    
+    section>div.best {
+        width: 90%;
+        margin: 0 10px 50px 10px;
+        padding: 0;
+    }
+
+    #fashion{
+        text-align: center;
+    }
+
+    section.lastmain{
+        flex-direction: column-reverse;
+        background-color: rgba(92, 173, 147, 0.801);
+        
+    }
+
+    footer{
+        padding: 30px 20px
+    }
+
+    footer section.first{
+        padding:0 0;
+        text-align: left;
+    }
+
+    main>section:last-child{
+        padding: 50px 0 0 0;
+    }
+
+    
+    footer>section.last{
+        flex-direction: column;
+    }
+
+    
+
+   
+
+}
